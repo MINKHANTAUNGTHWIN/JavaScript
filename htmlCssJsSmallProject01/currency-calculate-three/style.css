@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+    padding: 1rem;
+    box-shadow: 0 0 1rem gray;
+    border-radius: .25rem;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.form-input>label {
+    font-size: large;
+}
+
+.form-input>input{
+    font-size: large;
+    padding: .25rem;
+}

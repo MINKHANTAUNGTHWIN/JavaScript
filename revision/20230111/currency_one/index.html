@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="container-title">
+            <h1>Currency Calculator</h1>
+        </div>
+
+        <div class="container-body">
+            <div class="form-input">
+                <label for="">Dollar To</label>
+                <input type="number" name="" id="dollar-id" value="0" min="0" oninput="calculateCurrency()">
+            </div>
+
+            <div class="form-input">
+                <label for="">Yen</label>
+                <input type="number" name="" id="yen-id" value="0" disabled>
+            </div>
+
+            <div class="form-input">
+                <label for="">Rupee</label>
+                <input type="number" name="" id="rupee-id" value="0" >
+            </div>
+            <div class="form-input">
+                <input type="button" name="" id="" value="Calulate" onclick="calculateCurrency()">
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

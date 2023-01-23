@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1>Select Menu To Order</h1>
+        </div>
+
+        <div class="items">
+            <div class="pic">
+                <img src="" alt="">
+                <p>ゴヤチャンプル</p>
+            </div>
+
+            <div class="price">
+                <p id="price-id" >750</p>
+            </div>
+
+            <div class="action-amount-wrapper">
+                <div class="total-price">
+                    <h2 >Total Cost</h2>
+                    <p id="total-cost-id">0</p>
+                </div>
+
+                <div class="count">
+                    <h3>Count</h3>
+                    <p id="count-id">0</p>
+                </div>
+                <div class="actions">
+                    <input type="button" value="+" onclick="increase()">
+                    <input type="button" value="-" onclick="decrease()">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

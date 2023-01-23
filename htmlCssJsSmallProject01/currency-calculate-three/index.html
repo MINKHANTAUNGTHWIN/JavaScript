@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML || CSS || Javascript</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-input">
+            <label for="">From Dollar</label>
+            <input type="number" name="" id="dollar" value="0" oninput="calculateCurrency()">
+        </div>
+
+        <div class="form-input">
+            <label for="">To Yen</label>
+            <input type="number" name="" id="yen" value="0" disabled>
+        </div>
+
+        <div class="form-input">
+            <label for="">To Rupee</label>
+            <input type="number" name="" id="rupee" value="0" disabled >
+        </div>
+
+        <div class="form-input">
+            <label for="">To Kyat</label>
+            <input type="number" name="" id="kyat" value="0" disabled>
+        </div>
+
+        <div class="form-input">
+            <label for="">To Baht</label>
+            <input type="number" name="" id="baht" value="0" disabled>
+        </div>
+        
+        <div class="form-input">
+            <label for="">To Pound(lb)</label>
+            <input type="number" name="" id="pound" value="0" disabled>
+        </div>
+        
+        <div class="form-input">
+            <input type="button" value="calculate" onclick="calculateCurrency()">
+        </div>
+
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

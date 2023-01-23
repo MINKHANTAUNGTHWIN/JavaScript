@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 0 1rem gray;
+    padding: 1rem;
+    border-radius: .25rem;
+}
+
+.count-text {
+    text-align: center;
+    font-size: 8rem;
+    padding: 1rem 4rem;
+}
+
+.count-action {
+    display: flex;
+    gap: 1rem;
+}
+
+.count-action>input {
+    flex: 1;
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .25rem;
+}
+
+.count-action>input:first-child {
+    background-color: darkgreen;
+}
+
+.count-action>input:first-child:hover {
+    background-color: rgb(4, 158, 4);
+}
+
+.count-action>input:last-child {
+    background-color: darkred;
+}
+
+.count-action>input:last-child:hover {
+    background-color: rgb(206, 6, 6);
+}
+
+.count-action>input:nth-child(2) {
+    background-color: rgb(158, 155, 155);
+}
+
+.count-action>input:nth-child(2):hover {
+    background-color: darkgray;
+}
+

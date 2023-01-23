@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="container-title">
+            <h1>Login</h1>
+        </div>
+
+        <div class="container-body">
+
+            <div class="form-input">
+                <label for="username-id">User Name</label>
+                <input type="text" name="" id="user-name-id" placeholder="Enter User Name">
+            </div>
+
+            <div class="form-input">
+                <label for="pw-id">Password</label>
+                <input type="text" name="" id="pw-id" placeholder="Enter Password">
+            </div>
+
+            <div class="form-input">
+                <label for="confirm-pw-id">Confirm Password</label>
+                <input type="text" name="" id="confirm-pw-id" placeholder="Enter Password">
+            </div>
+
+            <div class="form-input">
+                <input type="button" value="Login" onclick="loginAction()" >
+            </div>
+        </div>
+
+        <div class="form-msg" id="error-msg-box"></div>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

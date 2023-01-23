@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: larger;
+    text-decoration: underline;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 1rem gray;
+    padding: 2rem;
+    gap: 1rem;
+    border-radius: .25rem;
+}
+
+.charge-remain-amount {
+    display: flex;
+}
+
+.charge-remain-amount>input {
+    padding: .5rem;
+    font-size: large;
+}
+
+.top-up-actions {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.top-up-actions>div {
+    display: flex;
+    gap: .25rem;
+}
+
+.top-up-actions>div>input {
+    flex: 1;
+    padding: .25rem;
+    border: none;
+    color: white;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.top-up-actions>div:first-child>input {
+    background-color: darkgreen;
+}
+
+.top-up-actions>div:last-child>input {
+    background-color: darkred;
+}
+
+.top-up-actions>div:first-child>input:hover {
+    background-color: green;
+}
+
+.top-up-actions>div:last-child>input:hover {
+    background-color: red;
+}

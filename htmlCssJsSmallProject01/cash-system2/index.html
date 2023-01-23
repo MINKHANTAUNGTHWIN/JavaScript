@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cash System</title>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="title">Caculate Cash</div>
+
+        <div class="body">
+            <div class="inputs">
+                <label for="">Amount</label>
+                <input type="text" name="" id="amount-id" placeholder="00.00" >
+            </div>
+
+            <div class="inputs">
+                <label for="">Tax Rate</label>
+                <input type="number" min="0" max="100" placeholder="0-100" id="tax-id">
+            </div>
+
+            <div class="result">
+                <label for="">Result</label>
+                <span id="total-result-id">00.00</span>
+            </div>
+
+        </div>
+        <div class="action">
+            <input type="button" name="" id="" value="Caculate" onclick="calculateCash()">
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

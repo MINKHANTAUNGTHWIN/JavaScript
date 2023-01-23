@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+ padding: 20px;
+ border-radius: 2rem;
+ box-shadow: 0 0 10px firebrick;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.actions>input {
+    flex: 1;
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .25rem;
+}
+
+
+.actions>input:first-child {
+    background-color: darkgreen;
+}
+
+.actions>input:first-child:hover {
+    background-color: rgb(4, 158, 4);
+}
+
+.actions>input:last-child {
+    background-color: darkred;
+}
+
+.actions>input:last-child:hover {
+    background-color: rgb(206, 6, 6);
+}
+
+.actions>input:nth-child(2) {
+    background-color: rgb(158, 155, 155);
+}
+
+.actions>input:nth-child(2):hover {
+    background-color: darkgray;
+}
+

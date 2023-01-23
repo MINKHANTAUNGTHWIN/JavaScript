@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-title">
+            <h1>User List | Add User</h1>
+        </div>
+
+        <div class="container-body" >
+            <div class="user-form-layout" >
+                <div class="form-input">
+                    <label for="">First Name</label>
+                    <input type="text" name="" id="first-name-id" placeholder="John">
+                </div>
+
+                <div class="form-input">
+                    <label for="">Last Name</label>
+                    <input type="text" name="" id="last-name-id" placeholder="Smith">
+                </div>
+
+                <div class="form-input">
+                    <label for="">Age</label>
+                    <input type="number" name="" id="age-id" min="0" value="0">
+                </div>
+
+
+                <div class="form-input">
+                    <label for="">Hobby</label>
+                    <input type="text" name="" id="hobby-id" placeholder="play football">
+                </div>
+
+                <div class="form-input">
+                    <input type="button" value="Add User" onclick="addUser()">
+                </div>
+            </div>
+        </div>
+
+        <div class="user-list" id="userListId">
+
+            <div class="user">
+                <div class="user-name">
+                    <label for="">Name</label>
+                    <input type="text" name="" id="user-name-result-id" value="John Smith" disabled>
+                </div>
+                <div class="user-age">
+                    <label for="">Age</label>
+                    <input type="text" name="" id="age-result-id" value="0" disabled>
+                </div>
+                <div class="user-hobby">
+                    <label for="">Hobby</label>
+                    <input type="text" name="" id="hobby-result-id" value="play football" disabled>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="app.js"></script>
+</body>
+
+</html>

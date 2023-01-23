@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fruit-item-add-layout {
+    padding: 1rem;
+    border: 1px solid gray;
+}
+
+.form-input {
+    display: flex;
+    gap: .5rem;
+}
+
+.form-input>input{
+    padding: .25rem;
+    font-size: 1rem;
+}
+
+.fruits-list {
+    padding: 1rem;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.fruit {
+    padding: 1rem;
+    border: 1px solid gray;
+}
