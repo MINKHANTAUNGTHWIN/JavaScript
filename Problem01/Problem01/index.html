@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>String Problems</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="input-layout">
+            <div class="item">
+                <label for="">Enter Text</label>
+            </div>
+            <div class="item">
+                <input type="text" placeholder="Enter Text" id="input-data" oninput="allFunction()">
+            </div>
+        </div>
+
+        <div class="show-input-text">
+            <div class="item">
+                <span> Your input Data Value = </span>
+            </div>
+            <div class="item">
+                <span id="input-text-show"> ??? </span>
+            </div>
+            <div class="item">
+                <input type="button" value="showInputData"  onclick="showInputData()">
+            </div>
+        </div>
+
+        <div class="show-input-text-length">
+            <div class="item">
+                <span> Your input Data Length = </span>
+            </div>
+            <div class="item">
+                <span id="show-length"> ??? </span>
+            </div>
+            <div class="item">
+                <input type="button" value="showLength"  onclick="length()">
+            </div>
+        </div>
+
+        <div class="show-input-text-first-char">
+            <div class="item">
+                <span> Your input Data First Char = </span>
+            </div>
+            <div class="item">
+                <span id="first-char"> ??? </span>
+            </div>
+            <div class="item">
+                <input type="button" value="showFirstChar" onclick="firstChar()">
+            </div>
+        </div>
+
+        <div class="show-input-text-last-char">
+            <div class="item">
+                <span> Your input Data Last Char = </span>
+            </div>
+            <div class="item">
+                <span id="last-char"> ??? </span>
+            </div>
+            <div class="item">
+                <input type="button" value="showLastChar" onclick="lastChar()">
+            </div>
+        </div>
+
+        <div class="show-input-text-mid-char">
+            <div class="item">
+                <span> Your input Data Middle Char/Chars = </span>
+            </div>
+            <div class="item">
+                <span id="charMid"> ??? </span>
+            </div>
+            <div class="item">
+                <input type="button" value="showMiddleChar/Chars" onclick="midChar()">
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+
+</body>
+
+</html>
