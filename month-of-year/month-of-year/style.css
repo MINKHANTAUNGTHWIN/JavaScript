@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.random-number {
+    padding: 1rem;
+    border: 1px solid gray;
+}
+
+.show-month-text {
+    padding: 1rem;
+    border: 1px solid gray;
+}

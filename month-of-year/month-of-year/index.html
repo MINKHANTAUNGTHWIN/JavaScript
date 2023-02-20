@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mont Of Year</title>
+</head>
+<body>
+
+    <div class="random-number">
+        <input type="number" min="0" max="10" value="1" id="GenerateRandomNum" disabled>
+        <input type="button" value="GenerateRandomNum" onclick="generateRandom()">
+
+        <ol>
+            <li>When click button[GenerateRandomNum], generates 1 to 12 of random number by using Math.random() function</li>
+            <li>The random number will show at left-side input area.</li>
+        </ol>
+    </div>
+
+    <div class="show-month-text">
+        <p>
+            Random Month Physical Name is : 
+            <span id="moth-name-show-id"> ??? </span>
+        </p>
+        <input type="button" value="GenerateMonthName" onclick="generateMonth()">
+
+        <ol>
+            <li>
+                When click button[GenerateMonthName]
+                <ol>
+                    <li>Get the number value from input area.</li>
+                </ol>
+            </li>
+
+            <li>
+                And makes below conditions:
+                <ol>
+                    <li>If the [input number value] is 1, shows [January] behind the [Random Month Physical Name is :]</li>
+                    <li>If the [input number value] is 2, shows [February] behind the [Random Month Physical Name is :]</li>
+                    <li>And so on...</li>
+                </ol>
+            </li>
+
+            <li>
+                Hint:
+                <ol>
+                    <li>Use if-condition or switch-conditions</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
